@@ -42,7 +42,7 @@ boxes.forEach((box) => {
 });
 
 const showWinner = (winner) => {
-  turn.innerHTML = `Congratulatins,the winner is ${winner}`;
+  turn.innerHTML = `Congratulatins, winner is ${winner}`;
 };
 
 const checkWinner = () => {
